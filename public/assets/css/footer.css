@@ -1,0 +1,245 @@
+
+.mottle-bot-container {
+    /* padding: 20px; */
+    /* position: fixed; */
+    /* bottom: 50%; */
+    width: 100%;
+    height: 40vh;
+    max-width: 100%;
+    margin: 0 auto;
+    /* left: 50%;
+        transform: translateX(-50%); */
+    /* transform: translateY(-50%); */
+    /* box-shadow: none !important; */
+}
+
+.mottle-bot,
+.mottle-bot input {
+    font-family: "Inter", sans-serif;
+}
+
+.mottle-button {
+    background: transparent;
+    font-size: 1.2em;
+    color: black;
+}
+
+.mottle-button img {
+    width: 36px;
+    height: 36px;
+}
+
+.mottle-conversation {
+    padding: 20px;
+    height: 1500px;
+    box-shadow: none !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #fbfbfb;
+    border: 1px solid #dedede;
+    border-radius: 12px;
+    margin-top: 0;
+}
+
+.mottle-conversation::-webkit-scrollbar {
+    /* padding-right: 40px; */
+    width: 5px;
+    /* width of the entire scrollbar */
+    height: 20px;
+}
+
+.mottle-conversation::-webkit-scrollbar-track {
+    background: transparent;
+    /* color of the tracking area */
+}
+
+.mottle-conversation::-webkit-scrollbar-thumb {
+    background-color: #d9d9d9;
+    /* color of the scroll thumb */
+    border-radius: 31px;
+    /* roundness of the scroll thumb */
+    border: 10px solid transparent;
+    /* creates padding around scroll thumb */
+}
+
+/* .mottle-conversation::-webkit-scrollbar {
+    width: 40px;
+    } */
+
+.mottle-bot {
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 1rem;
+    border-radius: 0;
+    min-width: auto !important;
+}
+
+.mottle-msg-bot,
+.mottle-msg-user {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.mottle-messages {
+    border: salmon solid;
+}
+
+.mottle-msg-bot div {
+    background: #edeff7;
+    border-radius: 0px 20px 20px 10px;
+}
+
+.mottle-msg-user div {
+    background: #b4f7cb;
+    border-radius: 20px 10px 0px 20px;
+}
+
+button {
+    background: transparent;
+}
+
+button.mottle-button {
+    position: absolute;
+    /* transform: translateX(-100%); */
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.mottle-chat .mottle-query {
+    border: 1px solid #dedede;
+    border-radius: 12px;
+    width: 100%;
+    padding: 20px;
+    /* font-family: "Inter"; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+    color: #8e90a4;
+}
+
+.mottle-bot fieldset {
+    margin-right: 0;
+    position: relative;
+}
+
+.grecaptcha-badge {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mottle-bot-container {
+        /* padding: 20px; */
+        /* position: fixed; */
+        /* bottom: 50%; */
+        width: 600px;
+        height: 40vh;
+        max-width: 100%;
+        margin: 0 auto;
+        /* left: 50%;
+            transform: translateX(-50%); */
+        /* transform: translateY(-50%); */
+        /* box-shadow: none !important; */
+    }
+
+    .mottle-bot,
+    .mottle-bot input {
+        font-family: "Inter", sans-serif;
+    }
+
+    .mottle-button {
+        background: transparent;
+        font-size: 1.2em;
+        color: black;
+    }
+
+    .mottle-conversation {
+        padding: 20px;
+        height: 1500px;
+        box-shadow: none !important;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        background: #fbfbfb;
+        border: 1px solid #dedede;
+        border-radius: 12px;
+        margin-top: 0;
+    }
+
+    .mottle-conversation::-webkit-scrollbar {
+        /* padding-right: 40px; */
+        width: 5px;
+        /* width of the entire scrollbar */
+        height: 20px;
+    }
+
+    .mottle-conversation::-webkit-scrollbar-track {
+        background: transparent;
+        /* color of the tracking area */
+    }
+
+    .mottle-conversation::-webkit-scrollbar-thumb {
+        background-color: #d9d9d9;
+        /* color of the scroll thumb */
+        border-radius: 31px;
+        /* roundness of the scroll thumb */
+        border: 10px solid transparent;
+        /* creates padding around scroll thumb */
+    }
+
+    /* .mottle-conversation::-webkit-scrollbar {
+            width: 40px;
+        } */
+    .mottle-bot {
+        border: none;
+        box-shadow: none;
+        margin-top: 0;
+    }
+
+    .mottle-msg-bot div {
+        background: #edeff7;
+        border-radius: 0px 20px 20px 10px;
+    }
+
+    .mottle-msg-user div {
+        background: #b4f7cb;
+        border-radius: 20px 10px 0px 20px;
+    }
+
+    button {
+        background: transparent;
+    }
+
+    button.mottle-button {
+        position: absolute;
+        /* transform: translateX(-100%); */
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+
+    .mottle-chat .mottle-query {
+        border: 1px solid #dedede;
+        border-radius: 12px;
+        width: 100%;
+        padding: 20px;
+        /* font-family: "Inter"; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        /* identical to box height, or 17px */
+        color: #8e90a4;
+    }
+
+    .mottle-bot fieldset {
+        margin-right: 0;
+        position: relative;
+    }
+
+    .grecaptcha-badge {
+        display: none;
+    }
+}
