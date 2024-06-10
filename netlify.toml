@@ -1,0 +1,7 @@
+[build]
+  command = "php artisan export"  # Command to generate static files
+  publish = "public"  # Directory to publish
+
+[context.production.environment]
+  APP_ENV = "production"
+  APP_DEBUG = "false"
